@@ -99,13 +99,14 @@ font-size:20px;
 </style>
 
 <style>
- 
-	@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {.popup {
-font-size: 40px;
+ .popup{
+	 font-size: 20px;
 	}
+	@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class="popup"] {
+    font-size: 40px;
+  }
 }
 
 /* Popup container */
