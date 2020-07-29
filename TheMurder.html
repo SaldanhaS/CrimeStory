@@ -99,9 +99,15 @@ font-size:20px;
 </style>
 
 <style>
-.popup {
+ 
+	@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {.popup {
 font-size: 40px;
 	}
+}
+
 /* Popup container */
 .popup {
   position: relative;
