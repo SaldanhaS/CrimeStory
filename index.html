@@ -13,9 +13,9 @@
  0nce you figure it out, you will reveal a four-digit passcode, which will be the key to the next chapter.
   Could you be the ultimate mystery solver? Input your first passcode below and press “Continue” to find out.</p></div>
    <div align= "center">
-   <input type = "text" id = ans maxlength="4" size="1">
+   <input type = "number" id = ans maxlength="4" size="1">
    <a href="TheTime.html" onclick="javascript:return validatePass()">
-<input type="number" value="CONTINUE"></a><br><br><br><br><br><br>
+<input type="submit" value="CONTINUE"></a><br><br><br><br><br><br>
 <script type="text/javascript">
 function validatePass(){
     if(document.getElementById('ans').value == '3510'){
@@ -65,7 +65,7 @@ color:#696969;
   width=200px;
   padding-left : 20%;	
   }
-input[type=number] {
+input[type=submit] {
  background-color: #d2691e;
  border-radius : 6px;
   border: none;
